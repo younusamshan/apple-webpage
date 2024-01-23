@@ -1,2 +1,2 @@
-# Apple Web Page Do Not responsive
+# Apple Web Page  Not responsive
 https://chaek-apple.netlify.app
