@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.header--menu   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header--menu ul li {
+    display: inline-block;
+    padding: 1.5rem;
+    color: white;
+    font-size: 1.4rem;
+}
+/* section fast*/
+.fast-section {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.fast-section-img {
+    width: 50%;
+   height: 100%;
+}
+.fast-section-img img {
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    left: auto;
+    right: auto;
+}
+.fast-section-inpo {
+    position: absolute;
+    top: 28rem;
+    right: 24rem;
+    text-align: center;
+}
+.fast-section-head {
+    font-size: 5.9rem;
+}
+.fast-section-para {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.fast-section-link {
+    font-size: 2rem;
+    color: gray;
+}
+/* scond section*/
+
+.sec-section {
+    width: 100%;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.scond-section-main {
+    width: 70%;
+    height: 80%;
+}
+.scond-section-main{
+    width: 70%;
+    height: 90%;
+  /* background-image: url("new-img/3camra-removebg-preview.png");
+ background-repeat: no-repeat;
+ background-size: 900px;
+ background-size: ;
+ background-position: top; */
+
+}
+.sco-section-img {
+    position: relative;
+    bottom: 670px;
+}
+.sco-sec-contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sco-sec-h1 {
+    font-size: 4.3rem;
+}
+.sco-sec-paragrap {
+    font-size: 2.3rem;
+}
+.sco-sec-link {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(30, 82, 38);
+}
+/* 
+.sco-sec-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sco-sec-img img {
+    position: relative;
+
+    bottom: 50px;
+} */
+.sco-sec-heading {
+    color: white;
+}
+/* end scond section*/
+/*three section*/
+
+.three-section {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3edef;
+}
+.three-section-main {
+    width: 70%;
+    height: 80%;
+}
+.three-sec-contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.three-sec-img  {
+   width: 100%;
+   height: 400px;
+
+}
+.three-sec-h1 {
+    font-size: 4.3rem;
+}
+.three-sec-paragrap {
+    font-size: 2.3rem;
+}
+.three-sec-link {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(30, 82, 38);
+}
+.three-sec-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three-sec-heading {
+    color: black;
+}
+
+/* end three section*/
+/*card section*/
+.card-group {
+    width: 100%;
+    height: auto;
+}
+.card-sec-main {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    margin: auto;
+    margin-top: 50px;
+    width: 45%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px gray;
+    background-color: white;
+}
+.card-one {
+
+    background-color: black;
+}
+.fast-card-watch {
+    width: 400px;
+    height: 200px;
+}
+.card-one-contant {
+    text-align: center;
+    color: white;
+}
+.card-contant {
+   color: black;
+    text-align: center;
+}
+.card-heading {
+    font-size: 2.5rem;
+}
+.card-paragrap {
+    font-size: 1.9rem;
+}
+.card-link {
+    font-size: 1.2rem;
+}
+.card-img img {
+    width: 450px;
+    height: 200px;
+}
+.slider-section {
+    display: flex;
+    margin-top: 5.9rem;
+    padding: 30px;
+}
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+.footer-contant-fast {
+    width: 70%;
+    height: 350px;
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+.footer-contant-two {
+    width: 70%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 460px;
+}
+.footer-contant-group {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-contant-group ul {
+    margin: 20px;
+}
+.footer-contant-group  li {
+    list-style: none;
+    font-size: 0.9rem;
+}
+.footer-paragraph {
+    text-align: center;
+
+}
+.footer-copy {
+    width: 65%;
+    font-size: 0.8rem;
+    
+    height: 45px;
+}
+
+/*end card section*/
+@media screen and (max-width: px) {
+
+}
